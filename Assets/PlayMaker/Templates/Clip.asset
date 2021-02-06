@@ -25,7 +25,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 60
-        y: 239
+        y: 223
         width: 100
         height: 32
       isBreakpoint: 0
@@ -105,8 +105,8 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 255
-        y: 103
+        x: 425
+        y: 111
         width: 100
         height: 32
       isBreakpoint: 0
@@ -226,8 +226,8 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 257
-        y: 150.79688
+        x: 427
+        y: 158.79688
         width: 100
         height: 32
       isBreakpoint: 0
@@ -318,8 +318,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 440.60156
-        y: 223
+        x: 617.60156
+        y: 221
         width: 100
         height: 32
       isBreakpoint: 0
@@ -399,8 +399,8 @@ MonoBehaviour:
       colorIndex: 6
       position:
         serializedVersion: 2
-        x: 250.60156
-        y: 323
+        x: 420.60156
+        y: 331
         width: 100
         height: 32
       isBreakpoint: 0
@@ -497,7 +497,13 @@ MonoBehaviour:
     - name: Go
       isSystemEvent: 0
       isGlobal: 0
+    - name: N
+      isSystemEvent: 0
+      isGlobal: 0
     - name: Release
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Y
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []

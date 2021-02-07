@@ -40,3 +40,4 @@ MonoBehaviour:
   events:
   - Process1
   - PartGoEnd
+  - GoDead

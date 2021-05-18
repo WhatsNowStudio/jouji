@@ -13,22 +13,34 @@ MonoBehaviour:
   m_Name: PlayMakerGlobals
   m_EditorClassIdentifier: 
   variables:
-    floatVariables: []
-    intVariables: []
-    boolVariables:
+    floatVariables:
     - useVariable: 1
-      name: GBool/IsDone?/Laser
+      name: GFloat/DummySize
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 0
+    - useVariable: 1
+      name: GFloat/SelectNumber
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    intVariables: []
+    boolVariables: []
     stringVariables: []
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
     rectVariables: []
     quaternionVariables: []
-    gameObjectVariables: []
+    gameObjectVariables:
+    - useVariable: 1
+      name: GObj/Dummy
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
     objectVariables: []
     materialVariables: []
     textureVariables: []
@@ -36,8 +48,14 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000
+    variableCategoryIDs: 000000000000000000000000
   events:
   - Process1
   - PartGoEnd
   - GoDead
+  - Process1_End
+  - Click
+  - Rest
+  - DummyImageIn
+  - Image
+  - Plane
